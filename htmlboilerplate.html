@@ -1,11 +1,3 @@
-<!-- still to do
-1) buttons
-2) links to external resources (icons and stylesheets)
-
--->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Breadcrumbs. To make them on one line, use display:inline in CSS -->
+    <ul class="breadcrumb">
+      <li class="bc"><a href="">Breadcrumb1</a></li>
+      <li class="bc"><a href="">Breadcrumb2</a></li>
+      <li class="bc"><a href="">Breadcrumb3</a></li>
+      <li class="bc"><a href="">Breadcrumb4</a></li>
+    </ul>
+
     <!-- NAV bar-->
     <header>
       <h1>Navigation bar</h1>
@@ -63,6 +63,7 @@
         <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"
           ><img
             src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"
+            alt="brown bear"
         /></a>
         <figure>
           <img
@@ -93,12 +94,23 @@
           >can be both amazingly fun and incredibly overwhelming
         </p>
       </div>
+      <!-- Tooltips: on the web page hover over the link -->
+      <h1>Tooltips</h1>
+      <p>
+        Hover over link.
+        <a
+          href="https://www.codecademy.com"
+          title="Codecademy is an online learning platform"
+          >Codecademy</a
+        >
+        is the best place to learn to code!
+      </p>
 
       <!-- Section example with article ad aside-->
       <!-- Sections are more semantic than divs-->
       <section>
         <article>
-          <h2>Facts About Me</h2>
+          <h1>Facts About Me</h1>
           <p>I am me.</p>
         </article>
         <aside>
@@ -113,9 +125,9 @@
       <table>
         <thead>
           <tr>
-            <th>Tabe header 1</th>
-            <th>Tabe header 2</th>
-            <th>Tabe header 3</th>
+            <th>Table header 1</th>
+            <th>Table header 2</th>
+            <th>Table header 3</th>
           </tr>
         </thead>
         <tbody>
@@ -156,12 +168,33 @@
         </tfoot>
       </table>
 
-      <!-- Add extra horizontal space-->
+      <!-- Add extra vertical space-->
       <br />
+
+      <!--An anchor text is a clickable text in a hyperlink that users see and click to navigate to another location. In below example that is descriptive -->
+      <h1>Anchor texts</h1>
+      <p>
+        Text for links, known as anchor text, should be
+        <a
+          id="anchortexts"
+          href="https://en.wikipedia.org/wiki/Anchor_text"
+          rel="noopener noreferrer"
+          target="_blank"
+          >descriptive</a
+        >
+      </p>
+
+      <!--Buttons -->
+      <div class="content">
+        <h1>Three types of buttons</h1>
+        <button>Standard Button</button>
+        <button class="skeuomorphic">Skeuomorphic</button>
+        <button class="flat">Flat</button>
+      </div>
 
       <!-- Website footer-->
       <footer>
-        <p>This is the footer section</p>
+        <h1>This is the footer section</h1>
         <div id="contact">
           <p>
             <strong>email:</strong>bullant@fake.com |
