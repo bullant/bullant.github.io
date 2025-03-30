@@ -12,6 +12,13 @@ header {
     text-align: center;
 }
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 main {
     flex-grow: 1; /* Makes 'main' section fill remaining space */
     padding: 20px;
