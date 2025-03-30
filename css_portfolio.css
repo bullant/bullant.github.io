@@ -1,9 +1,11 @@
+/* Full viewport height container, stacking elements vertically */
 .container {
     display: flex;
     flex-direction: column; 
     height: 100vh; /* Full viewport height */
 }
 
+/* Nav bar styling */
 nav {
     background: #444;
     color: white;
@@ -11,27 +13,32 @@ nav {
     text-align: center;
 }
 
+/* Flexbox for nav items, to align them horizontally */
 nav ul {
-  list-style-type: none;  
-  margin: 0;  
-  padding: 0;
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;
+    display: flex;  /* Use flex to align items horizontally */
+    justify-content: center; /* Center the nav items */
 }
 
 nav ul li {
-  display: inline; 
-  margin-right: 20px;
+    margin-right: 20px;  /* Space between each nav item */
 }
 
 nav ul li a {
-  text-decoration: none; 
+    text-decoration: none; 
+    color: white; /* Make sure the links are white */
 }
 
+/* Main section styling */
 main {
     flex-grow: 1; /* Makes 'main' section fill remaining space */
     padding: 20px;
     background: #eee;
 }
 
+/* Footer styling */
 footer {
     background: #444;
     color: white;
