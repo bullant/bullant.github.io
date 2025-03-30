@@ -16,6 +16,13 @@ h1 {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+nav {
+    background: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 nav ul {
   list-style-type: none;  
   margin: 0;  
