@@ -6,7 +6,7 @@ e/* Full viewport height container, stacking elements vertically */
 }
 
 /* Nav bar styling */
-header {
+nav {
     background: #444;
     color: white;
     padding: 10px;
