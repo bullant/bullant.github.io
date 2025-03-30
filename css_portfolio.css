@@ -1,4 +1,4 @@
-/* Full viewport height container, stacking elements vertically */
+e/* Full viewport height container, stacking elements vertically */
 .container {
     display: flex;
     flex-direction: column; 
@@ -6,7 +6,7 @@
 }
 
 /* Nav bar styling */
-nav {
+header {
     background: #444;
     color: white;
     padding: 10px;
