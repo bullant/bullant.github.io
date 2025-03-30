@@ -1,4 +1,26 @@
 .container {
     display: flex;
+    flex-direction: column; 
     height: 100vh; /* Full viewport height */
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1; /* Makes 'main' section fill remaining space */
+    padding: 20px;
+    background: #eee;
+}
+
+footer {
+    background: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
