@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  
+.firstrowflexbox {
+    padding: 50px;
+}
+  
+  .image-row {
+    display: flex;
+    background-color: whitesmoke;
+    gap: 20px;
+  }
+
+  .content-row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.boximagerow {
+    background-color: white;
+    border: 3px solid white;
+  }
+
+.box {
+   background-color: dodgerblue;
+   border: 3px solid white;
+  }
+  
+  .boximagerow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the space nicely */
+    border-radius: 5px;
+  }
